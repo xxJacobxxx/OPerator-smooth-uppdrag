@@ -14,5 +14,25 @@ public class App {
         System.out.println("Är första talet större?");
         System.out.println(tal1>=tal2);
 
+        int[] fält1 = {4,5,2};
+        boolean b = fält1[0] >= fält1[1];
+       System.out.println( fält1[0] >= fält1[2]);
+
+       System.out.println(fält1[0]<=fält1[1]);
+       System.out.println(fält1[0]<=fält1[2]);
+
+       System.out.println(fält1[0]==fält1[1]);
+       System.out.println(fält1[0]==fält1[2]);
+
+       System.out.println("One more tal snälla");
+        int x = tb.nextInt();
+        int tal=x+7;
+        tal*=2;
+        tal-=6;
+        tal/=2;
+        tal+=3;
+        tal=tal-x;
+        System.out.println(tal); 
+
     }
 }
